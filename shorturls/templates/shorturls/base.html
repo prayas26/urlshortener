@@ -1,0 +1,21 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL Shortener</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'shorturls/main.css' %}">
+</head>
+<body>
+	<h1>URL Shortener!</h1>
+	<div class="content">
+		{% block content %}
+		{% endblock %}
+	</div>
+	
+<footer>
+  <p>By: Prayas Mittal</p>
+  <p>Contact information: <a href="mailto:prayas.mittal@gmail.com">prayas.mittal@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
